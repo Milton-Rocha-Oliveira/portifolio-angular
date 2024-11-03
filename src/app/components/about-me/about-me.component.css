@@ -1,0 +1,58 @@
+*{
+    background-image: src("/portifolio-completo/assets/Milton...R.jpg");
+}
+
+.texto__cabecalho{
+    font-size: small;
+    margin: 0%;
+    font-family:'Franklin Gothic Medium';
+}
+.container__about-me{
+    background-image: url(/portifolio-completo/assets/Milton...R.jpg);
+}
+
+.container__about-me__texto{
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+}
+.container__about-me__texto > h1{
+    margin-left: -0.6rem;
+}
+.container__about-me__texto > hr{
+    height: 3rem;
+    margin-top: 2.2rem;
+}
+
+.container__about-me__destaque-de-texto{
+    color: rgb(4, 204, 4);
+}
+
+.container__about-me > hr{
+    border-color: rgb(4, 204, 4);
+    margin-top: -1.2rem;
+
+    width: 4rem;
+    margin-left: 25.5rem
+}
+
+.button{
+    width: 12rem;
+    height: 3.5rem;
+    margin-left: 3rem;
+
+    box-shadow: 9px 9px 27px 0px green;
+    -webkit-box-shadow: -5px 9px 2px 0px rgb(1, 87, 1);
+    -moz-box-shadow: 9px 9px 2px 0px green;
+
+    background-color:rgb(4, 204, 4);
+    color: black;
+
+    font-family:'Franklin Gothic Medium';
+    font-size: 1rem;
+    font-weight: 900;
+    align-items: center;
+
+    border: solid;
+    border-radius: 0.5rem;
+}

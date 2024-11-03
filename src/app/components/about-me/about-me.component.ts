@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './about-me.component.css'
 })
 export class AboutMeComponent {
-
+    download(){
+       alert("CLICOU NO BOTÃO");
+    }
 }
