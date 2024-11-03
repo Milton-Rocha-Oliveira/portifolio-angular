@@ -1,6 +1,4 @@
-*{
-    background-image: src("/portifolio-completo/assets/Milton...R.jpg");
-}
+
 
 .texto__cabecalho{
     font-size: small;
@@ -8,7 +6,13 @@
     font-family:'Franklin Gothic Medium';
 }
 .container__about-me{
+    width: 80rem;
+    height: 40rem;
+    margin: 0%;
+    padding: 0%;
+    
     background-image: url(/portifolio-completo/assets/Milton...R.jpg);
+    background: linear-gradient(black,black, black,rgb(2, 255, 2));
 }
 
 .container__about-me__texto{
@@ -40,10 +44,10 @@
     width: 12rem;
     height: 3.5rem;
     margin-left: 3rem;
-
-    box-shadow: 9px 9px 27px 0px green;
-    -webkit-box-shadow: -5px 9px 2px 0px rgb(1, 87, 1);
-    -moz-box-shadow: 9px 9px 2px 0px green;
+    /*Cria o efeito de sombra*/
+    box-shadow: 2px 2px 27px 0px rgb(0, 71, 0);
+    -webkit-box-shadow: -5px 5px 2px 0px rgb(1, 72, 1);
+    -moz-box-shadow: 2px 9px 2px 0px rgb(2, 74, 2);
 
     background-color:rgb(4, 204, 4);
     color: black;
