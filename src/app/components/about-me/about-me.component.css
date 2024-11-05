@@ -1,49 +1,68 @@
 
+.container__about-me{
+    width: 100%;
+    height: 40rem;
+
+    display: flex;
+    flex-direction: row;
+
+    background: linear-gradient(black,black,black,black, black, black,black, black, black, rgb(1, 93, 1));
+}
 
 .texto__cabecalho{
+    margin-top: 1rem;
+    margin-left:1rem ;
+
     font-size: small;
-    margin: 0%;
     font-family:'Franklin Gothic Medium';
-}
-.container__about-me{
-    width: 80rem;
-    height: 40rem;
-    margin: 0%;
-    padding: 0%;
-    
-    background-image: url(/portifolio-completo/assets/Milton...R.jpg);
-    background: linear-gradient(black,black, black,rgb(2, 255, 2));
 }
 
 .container__about-me__texto{
     display: flex;
     flex-direction: row;
-    margin: 0%;
+
+    margin: 0;
+    margin-top: 27.5rem;
+    margin-left: 0.5rem;
+    margin-right: 10rem;
 }
 .container__about-me__texto > h1{
-    margin-left: -0.6rem;
+    margin-left: 0.6rem;
 }
 .container__about-me__texto > hr{
     height: 3rem;
-    margin-top: 2.2rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: -0.4rem;
 }
 
 .container__about-me__destaque-de-texto{
     color: rgb(4, 204, 4);
 }
 
-.container__about-me > hr{
+.linha__inferior{
     border-color: rgb(4, 204, 4);
-    margin-top: -1.2rem;
+    margin-top:-6.5px;
 
     width: 4rem;
     margin-left: 25.5rem
 }
 
+.container__about-me__texto__apresentacao{
+    width: 30%;
+    padding: 2rem;
+    margin: auto;
+    margin-left: 10rem;
+
+    justify-content: center;
+    text-align: center;
+}
+
 .button{
     width: 12rem;
     height: 3.5rem;
-    margin-left: 3rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
     /*Cria o efeito de sombra*/
     box-shadow: 2px 2px 27px 0px rgb(0, 71, 0);
     -webkit-box-shadow: -5px 5px 2px 0px rgb(1, 72, 1);
@@ -54,8 +73,8 @@
 
     font-family:'Franklin Gothic Medium';
     font-size: 1rem;
-    font-weight: 900;
-    align-items: center;
+    font-weight: bold;
+    text-align: center;
 
     border: solid;
     border-radius: 0.5rem;
