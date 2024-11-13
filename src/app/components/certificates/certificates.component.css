@@ -1,0 +1,13 @@
+.certificates__container{
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+
+    background: linear-gradient(#12ff7f,#000000, #000000, #000000, #000000, #000000,#000000, #000000);
+
+}

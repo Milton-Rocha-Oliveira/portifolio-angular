@@ -1,12 +1,13 @@
 
 .container__about-me{
+    margin-top: 3.0rem;
     width: 100%;
     height: 40rem;
 
     display: flex;
     flex-direction: row;
-
-    background: linear-gradient(black,black,black,black, black, black,black, black, black, rgb(1, 93, 1));
+    
+    background: linear-gradient(#000000, #000000, #000000, #000000, #000000,#000000, #000000, #12ff7f);
 }
 
 .texto__cabecalho{
@@ -26,9 +27,19 @@
     margin-left: 0.5rem;
     margin-right: 10rem;
 }
+
 .container__about-me__texto > h1{
     margin-left: 0.6rem;
 }
+
+.container__about-me-box__lefth{
+    
+    margin-bottom: 5.5rem;
+    background-size: 96%;
+    background-image: url(/assets/Milton-ProfilePhoto.png);
+    box-shadow: 1rem 0px 10rem 0px black;
+}
+
 .container__about-me__texto > hr{
     height: 3rem;
     margin-top: 1rem;
@@ -37,11 +48,11 @@
 }
 
 .container__about-me__destaque-de-texto{
-    color: rgb(4, 204, 4);
+    color: #12ff7f;
 }
 
 .linha__inferior{
-    border-color: rgb(4, 204, 4);
+    border-color: #12ff7f;
     margin-top:-6.5px;
 
     width: 4rem;
@@ -68,7 +79,7 @@
     -webkit-box-shadow: -5px 5px 2px 0px rgb(1, 72, 1);
     -moz-box-shadow: 2px 9px 2px 0px rgb(2, 74, 2);
 
-    background-color:rgb(4, 204, 4);
+    background-color:#12ff7f;
     color: black;
 
     font-family:'Franklin Gothic Medium';

@@ -1,0 +1,55 @@
+.certificate__container{
+    width: 26rem;
+    height: 11rem;
+    margin-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    
+    background: rgba(0, 0, 0, 0.415);
+    position: relative;
+    
+
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+    border: 1px solid white;
+}
+
+img{
+    height: 10rem;
+    border: 0.1rem solid #12ff7f;
+    border-radius: 1rem;
+
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+
+    box-shadow: 2px 2px 27px 0px rgb(0, 71, 0);
+    -webkit-box-shadow: -5px 5px 2px 0px rgb(1, 72, 1);
+    -moz-box-shadow: 2px 9px 2px 0px rgb(2, 74, 2);
+
+    transition: transform 3s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.certicate__content-text{
+    height: 10rem;
+    width: 10rem;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    border: 1px solid #12ff7f;
+}
+
+.certicate__content-text > p{
+    font-size: smaller;
+}
