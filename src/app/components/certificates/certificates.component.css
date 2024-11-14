@@ -1,4 +1,16 @@
+
 .certificates__container{
+    background: linear-gradient(#12ff7f,#000000, #000000, #000000, #000000, #000000,#000000, #000000);
+}
+.certificates__container > h1 {
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+
+    font-weight: 100;
+}
+
+.certificates__container__content{
     box-sizing: border-box;
     width: 100%;
     margin: auto;
@@ -7,7 +19,5 @@
     justify-content: space-around;
     align-items: baseline;
     flex-wrap: wrap;
-
-    background: linear-gradient(#12ff7f,#000000, #000000, #000000, #000000, #000000,#000000, #000000);
 
 }

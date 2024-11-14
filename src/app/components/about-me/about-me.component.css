@@ -16,6 +16,7 @@
 
     font-size: small;
     font-family:'Franklin Gothic Medium';
+    font-weight: 100;
 }
 
 .container__about-me__texto{
@@ -23,9 +24,10 @@
     flex-direction: row;
 
     margin: 0;
-    margin-top: 27.5rem;
+    margin-top: 28rem;
     margin-left: 0.5rem;
-    margin-right: 10rem;
+    margin-right: 5rem;
+    margin-bottom: 0rem;
 }
 
 .container__about-me__texto > h1{
@@ -33,9 +35,9 @@
 }
 
 .container__about-me-box__lefth{
-    
-    margin-bottom: 5.5rem;
-    background-size: 96%;
+    margin-left: 5rem;
+    margin-bottom: 5.3rem;
+    background-size: 38rem;
     background-image: url(/assets/Milton-ProfilePhoto.png);
     box-shadow: 1rem 0px 10rem 0px black;
 }
@@ -63,7 +65,8 @@
     width: 30%;
     padding: 2rem;
     margin: auto;
-    margin-left: 10rem;
+    margin-left: 8rem;
+    margin-bottom: 6rem;
 
     justify-content: center;
     text-align: center;
