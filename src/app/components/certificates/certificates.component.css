@@ -1,5 +1,6 @@
 
 .certificates__container{
+    margin: auto;
     background: linear-gradient(#12ff7f,#000000, #000000, #000000, #000000, #000000,#000000, #000000);
 }
 .certificates__container > h1 {
@@ -20,4 +21,31 @@
     align-items: baseline;
     flex-wrap: wrap;
 
+}
+
+
+@media(max-width: 1200px){
+    
+}
+
+@media(max-width: 800px){
+    
+}
+
+@media(max-width: 400px){
+    
+.certificates__container{
+    background: linear-gradient(#12ff7f,#000000, #000000, #000000, #000000, #000000,#000000, #000000);
+}
+.certificates__container > h1 {
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+
+    font-weight: 100;
+}
+
+.certificates__container__content{
+   
+}
 }

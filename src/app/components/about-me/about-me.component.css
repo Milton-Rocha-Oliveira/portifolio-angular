@@ -1,14 +1,23 @@
 
 .container__about-me{
-    margin-top: 3.0rem;
+   
     width: 100%;
-    height: 40rem;
 
     display: flex;
     flex-direction: row;
     
     background: linear-gradient(#000000, #000000, #000000, #000000, #000000,#000000, #000000, #12ff7f);
 }
+
+.container__about-me-box__lefth{
+    max-height: 35rem;
+    margin-left: 5rem;
+    margin-bottom: 5.5rem;
+    background-size: 38rem;
+    background-image: url(/assets/Milton-ProfilePhoto.png);
+    box-shadow: 1rem 0px 10rem 0px black;
+}
+
 
 .texto__cabecalho{
     margin-top: 1rem;
@@ -34,14 +43,6 @@
     margin-left: 0.6rem;
 }
 
-.container__about-me-box__lefth{
-    margin-left: 5rem;
-    margin-bottom: 5.3rem;
-    background-size: 38rem;
-    background-image: url(/assets/Milton-ProfilePhoto.png);
-    box-shadow: 1rem 0px 10rem 0px black;
-}
-
 .container__about-me__texto > hr{
     height: 3rem;
     margin-top: 1rem;
@@ -63,12 +64,8 @@
 
 .container__about-me__texto__apresentacao{
     width: 30%;
-    padding: 2rem;
+    
     margin: auto;
-    margin-left: 8rem;
-    margin-bottom: 6rem;
-
-    justify-content: center;
     text-align: center;
 }
 
@@ -92,4 +89,60 @@
 
     border: solid;
     border-radius: 0.5rem;
+}
+
+@media(max-width: 1200px){
+    
+.container__about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+.container__about-me-box__lefth{
+    margin: auto;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.container__about-me__texto__apresentacao{
+    width: 60%;
+    
+    margin: auto;
+    margin-bottom: 6rem;
+}
+
+}
+
+@media(max-width: 800px){
+    
+    .container__about-me-box__lefth{
+        margin: auto;
+        margin-bottom: 1rem;
+        align-items: center;
+    }
+    
+    .container__about-me__texto__apresentacao{
+        margin: auto;
+        margin-bottom: 6.3rem;
+    }
+}
+
+@media(max-width:400px){
+    .container__about-me{
+        margin-left: 5rem;
+        margin-right: 0rem;
+        width: 100%;
+    }
+    .container__about-me-box__lefth{
+        margin: auto;
+        margin-bottom: 1rem;
+        align-items: center;
+    }
+    
+    .container__about-me__texto__apresentacao{
+        width: 55%;
+        margin: auto;
+        margin-bottom: 6.3rem;
+    }
 }

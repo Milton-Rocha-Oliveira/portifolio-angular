@@ -1,7 +1,9 @@
 .contact__container{
+    width: 100%;
     margin: 0%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 
 }
 
@@ -44,5 +46,54 @@
 .contact__container-redes > img{
     margin: auto;
     max-height: 2.4rem;
+}
+
+@media(max-width: 1200px){
+    .contact__container{
+        margin: auto;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .contact__container-contatos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        gap:1rem;
+    }
+    
+    
+    .contact__container-redes{
+        height: 3rem;
+        width: 10rem;
+    
+        border: 1px solid #12ff7f;
+        border-radius: 0rem 4rem 0rem 4rem;
+    
+        background: linear-gradient(#000000, #000000, #000000, #000000, #000000,#000000, #000000, #12ff7f);
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .contact__container-redes:hover{
+        background: linear-gradient(#12ff7f,#000000, #000000, #000000, #000000, #000000,#000000, #000000);
+    }
+    
+    .contact__container-redes > img{
+        margin: auto;
+        max-height: 2.4rem;
+    }
+}
+
+@media(max-width: 800px){
+   
+}
+
+@media(max-width: 400px){
+    
 }
 

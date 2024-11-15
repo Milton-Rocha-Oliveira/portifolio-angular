@@ -1,22 +1,43 @@
 .projects__container__content{
-    width: 84.2rem;
-    margin: 0;
+    width: 100%;
+    margin: auto;
     display: flex;
 
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-
-    background-image: url(/assets/fundo-dev.png);
-    background-size: 60%;
-
-    border: 1px solid #12ff7f;
-   /* background: linear-gradient(#000000, #000000, #000000, #000000, #000000,#000000, #000000, #12ff7f);
-*/
 }
 
 .projects__container > h1{
     font-weight: 100;
 
     text-align: center;
+}
+
+@media(max-width: 1200px){
+
+    
+}
+
+@media(max-width: 800px){
+    
+}
+
+@media(max-width: 400px){
+   .projects__container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.projects__container > h1{
+    font-weight: 100;
+
+    text-align: center;
+
+}
 }
