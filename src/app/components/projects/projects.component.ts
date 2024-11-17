@@ -16,4 +16,6 @@ export class ProjectsComponent {
   textProject:string = ""
   @Input()
   linkProject:string = ""
+  @Input()
+  projectSummary:string = ""
 }

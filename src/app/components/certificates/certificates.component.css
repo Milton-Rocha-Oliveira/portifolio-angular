@@ -1,10 +1,10 @@
 
 .certificates__container{
+    margin-left: 10rem;
     margin: auto;
     background: linear-gradient(#12ff7f,#000000, #000000, #000000, #000000, #000000,#000000, #000000);
 }
 .certificates__container > h1 {
-    padding: 1rem;
     justify-content: center;
     text-align: center;
 

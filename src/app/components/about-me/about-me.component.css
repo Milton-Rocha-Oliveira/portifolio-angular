@@ -1,12 +1,12 @@
 
 .container__about-me{
-   
+   margin: auto;
     width: 100%;
 
     display: flex;
     flex-direction: row;
     
-    background: linear-gradient(#000000, #000000, #000000, #000000, #000000,#000000, #000000, #12ff7f);
+    background: linear-gradient(#000000, #000000, #000000, #000000, #000000,#000000, #000000,#000000,    #12ff81);
 }
 
 .container__about-me-box__lefth{
@@ -15,26 +15,24 @@
     margin-bottom: 5.5rem;
     background-size: 38rem;
     background-image: url(/assets/Milton-ProfilePhoto.png);
-    box-shadow: 1rem 0px 10rem 0px black;
+   
 }
 
 
 .texto__cabecalho{
     margin-top: 1rem;
-    margin-left:1rem ;
+    margin-left:2.2rem ;
 
     font-size: small;
-    font-family:'Franklin Gothic Medium';
-    font-weight: 100;
+    font-weight: 400;
 }
 
 .container__about-me__texto{
     display: flex;
     flex-direction: row;
 
-    margin: 0;
     margin-top: 28rem;
-    margin-left: 0.5rem;
+    margin-left: 3rem;
     margin-right: 5rem;
     margin-bottom: 0rem;
 }
@@ -51,7 +49,9 @@
 }
 
 .container__about-me__destaque-de-texto{
+    font-weight: 300;
     color: #12ff7f;
+    
 }
 
 .linha__inferior{
@@ -63,10 +63,19 @@
 }
 
 .container__about-me__texto__apresentacao{
-    width: 30%;
+    width: 35%;
     
     margin: auto;
+    margin-bottom: 1;
+    padding: 1rem;
     text-align: center;
+    border: 1px solid #12ff818d;
+    border-radius: 0rem 3rem 0rem 3rem;
+
+    box-shadow: 2px 2px 27px 0px #12ff81;
+    -webkit-box-shadow: -5px 5px 2px 0px #12ff813c;
+    -moz-box-shadow: 2px 9px 2px 0px #12ff8138;
+
 }
 
 .button{
@@ -94,9 +103,13 @@
 @media(max-width: 1200px){
     
 .container__about-me{
+    width: 100%;
+    margin-left: 3rem;
+    margin-right: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
  }
 
 .container__about-me-box__lefth{
@@ -130,8 +143,7 @@
 
 @media(max-width:400px){
     .container__about-me{
-        margin-left: 5rem;
-        margin-right: 0rem;
+        padding: auto;
         width: 100%;
     }
     .container__about-me-box__lefth{

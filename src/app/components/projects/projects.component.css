@@ -1,11 +1,18 @@
-.projects__container__content{
+.projects__container{
     width: 100%;
     margin: auto;
-    display: flex;
+    
 
-    justify-content: space-around;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
+}
+.projects__container__content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .projects__container > h1{

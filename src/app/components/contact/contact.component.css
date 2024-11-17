@@ -1,6 +1,6 @@
 .contact__container{
     width: 100%;
-    margin: 0%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -14,6 +14,7 @@
 
     margin-right: 5rem;
     margin-bottom: 3rem;
+    margin-top: 2rem;
     gap: 10rem;
 
 }
@@ -23,6 +24,19 @@
     margin-bottom: 1rem;
     text-align: center;
     font-weight: 100;
+}
+
+.contact__container-email{
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    font-weight: 200;
+}
+
+.contact__container-email > img{
+    max-height: 3.1rem;
 }
 
 .contact__container-redes{
@@ -37,6 +51,10 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+    box-shadow: 2px 2px 27px 0px #12ff81;
+    -webkit-box-shadow: -5px 5px 2px 0px #12ff813c;
+    -moz-box-shadow: 2px 9px 2px 0px #12ff8138;
 }
 
 .contact__container-redes:hover{
