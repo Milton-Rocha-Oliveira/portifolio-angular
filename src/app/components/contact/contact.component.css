@@ -3,25 +3,25 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 
 }
 
 .contact__container-contatos{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 
-    margin-right: 5rem;
-    margin-bottom: 3rem;
-    margin-top: 2rem;
+    margin: auto;
+    margin-bottom: 2rem;
     gap: 10rem;
 
 }
 
 .contact__container > h1{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
     text-align: center;
     font-weight: 100;
 }
@@ -68,18 +68,17 @@
 
 @media(max-width: 1200px){
     .contact__container{
-        margin: auto;
-        margin-bottom: 2rem;
         margin-left: 1rem;
-        margin-right: 1rem;
+        margin-right: 0rem;
     }
     
     .contact__container-contatos{
+        padding: 2rem;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
 
-        gap:1rem;
+        gap:2rem;
     }
     
     
@@ -103,7 +102,7 @@
     
     .contact__container-redes > img{
         margin: auto;
-        max-height: 2.4rem;
+        max-height: 1.6rem;
     }
 }
 
