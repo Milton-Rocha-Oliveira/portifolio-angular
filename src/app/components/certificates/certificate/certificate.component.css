@@ -2,11 +2,12 @@
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    width: 26rem;
-    height: 15rem;
+    width: 20rem;
+    height: 25rem;
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 
 }
@@ -24,6 +25,7 @@ img{
     -moz-box-shadow: 2px 9px 2px 0px #12ff8138;
 
     transition: transform 3s;
+
 }
 
 img:hover{
@@ -34,9 +36,7 @@ img:hover{
     height: 9rem;
     width: 13rem;
 
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-    padding: 0.5rem;
+    margin: auto;
 
     display: flex;
     flex-direction: column;
@@ -67,22 +67,49 @@ img:hover{
 }
 
 @media(max-width: 800px){
+    .certificate__container{
+        
+        background: rgba(0, 0, 0, 0);
+        
+        width: 30rem;
+        height: 29rem;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
     
+    }
+
+    img{
+        height: 15rem;
+        width: 19rem;
+    }
+    .certicate__content-text{
+        height: 10rem;
+        width: 19rem;
+
+    }
+    .certicate__content-text > h4{
+        color: #12ff7f;
+        font-weight: 400;
+    }
+    
+    .certicate__content-text > hr{
+        border-color: #12ff7f;
+    }
+    
+    .certicate__content-text > p{
+        font-size:larger;
+        font-weight: 200;
+    }
 }
 
 @media(max-width: 400px){
     .certificate__container{
-        margin: auto;
-        width: 26rem;
-        height: 12rem;
-        margin-top: 2rem;
-    
-      
         
         background: rgba(0, 0, 0, 0);
-        position: relative;
         
-    
+        width: 25rem;
+        height: 25rem;
         display: flex;
         flex-direction: column;
         overflow: hidden;
@@ -109,14 +136,7 @@ img:hover{
     }
     
     .certicate__content-text{
-        height: 10rem;
-        width: 10rem;
-    
-        margin-left: 0.5rem;
-    
-    
-        justify-content: center;
-        text-align: center;
+       
     }
      
 }

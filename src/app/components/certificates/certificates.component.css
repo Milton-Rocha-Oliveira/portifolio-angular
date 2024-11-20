@@ -1,8 +1,11 @@
 
 .certificates__container{
-    margin-left: 10rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
     margin: auto;
     background: linear-gradient(#12ff7f,#000000, #000000, #000000, #000000, #000000,#000000, #000000);
+
 }
 .certificates__container > h1 {
     justify-content: center;
@@ -12,14 +15,13 @@
 }
 
 .certificates__container__content{
-    box-sizing: border-box;
-    width: 100%;
     margin: auto;
     display: flex;
 
     justify-content: space-around;
     align-items: baseline;
     flex-wrap: wrap;
+
 
 }
 
@@ -35,7 +37,9 @@
 @media(max-width: 400px){
     
 .certificates__container{
-    background: linear-gradient(#12ff7f,#000000, #000000, #000000, #000000, #000000,#000000, #000000);
+    margin: auto;
+    padding: auto;
+  
 }
 .certificates__container > h1 {
     padding: 1rem;
@@ -45,7 +49,4 @@
     font-weight: 100;
 }
 
-.certificates__container__content{
-   
-}
 }
