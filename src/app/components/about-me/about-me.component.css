@@ -5,10 +5,8 @@
 
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     
-    background: linear-gradient(#000000, #000000, #000000, #000000, #000000,#000000, #000000,#000000,    #12ff81);
-}
+}  
 
 .container__about-me-box__lefth{
     max-height: 35rem;
@@ -25,7 +23,7 @@
     margin-left:2.2rem ;
 
     font-size: small;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .container__about-me__texto{
@@ -105,80 +103,95 @@
     
 .container__about-me{
     width: 100%;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    gap: 1rem;
  }
 
+ .texto__cabecalho{
+    margin-top: 0.5rem;
+    font-size:2rem;
+    font-weight: 300;
+}
+
+.container__about-me__texto{
+    margin-top: 26rem;
+    margin-left: 3rem;
+}
+.container__about-me__texto > h1{
+    font-size: 2rem;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+.container__about-me__texto > hr{
+    margin-left: 4rem;
+}
+
+.linha__inferior{
+    margin-top: 0.125rem;
+    margin-left: 30rem;
+}
+
 .container__about-me-box__lefth{
+    width: 70%;
+    height: 100%;
+    background-size: 60rem;
     margin: auto;
-    margin-bottom: 2rem;
-    align-items: center;
+    
 }
 
 .container__about-me__texto__apresentacao{
-    width: 60%;
-    
+    width: 80%;
+    font-size: 2rem;
     margin: auto;
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
 }
 
 }
 
-@media(max-width: 800px){
-    
-    .container__about-me-box__lefth{
-        margin: auto;
-        margin-bottom: 1rem;
-        align-items: center;
-    }
-    
-    .container__about-me__texto__apresentacao{
-        margin: auto;
-        margin-bottom: 6.3rem;
-    }
-}
-
-@media(max-width:400px){
+@media(max-width: 800px){  
     .container__about-me{
-        margin: auto;
-        padding: auto;
         width: 100%;
-    }
-    .container__about-me-box__lefth{
-        max-height: 23rem;
-        margin-left: 5rem;
-        margin-bottom: 5.5rem;
-        background-size: 25rem;
         margin: auto;
-        margin-bottom: 1rem;
-        align-items: center;
-    }
-    .container__about-me__texto{
-        font-size: 0.7rem;
-        width: 85%;
-
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     
-        margin-top: 17.4rem;
-        margin-left: 0.7rem;
-        margin-right: 5rem;
-        margin-bottom: 0rem;
-
+        gap: 1rem;
+     }
+    
+     .container__about-me-box__lefth{
+        width: 70%;
+        height: 100%;
+        background-size: 40rem;
+        margin: auto;
+        
     }
+
+     .texto__cabecalho{
+        margin-top: 0.5rem;
+        font-size:1.5rem;
+        font-weight: 300;
+    }
+    
     
     .container__about-me__texto > h1{
-        margin-left: 0.6rem;
+        margin-top: auto;
+        font-size: 1.7rem;
+        margin-left: 0.9rem;
+        font-weight: 400    ;
     }
     
     .container__about-me__texto > hr{
         height: 2rem;
         margin-top: 0.9rem;
-        margin-left: 0.5rem;
+        margin-left: 2rem;
         margin-right: -0.4rem;
     }
     
@@ -190,17 +203,76 @@
     
     .linha__inferior{
         border-color: #12ff7f;
-        margin-top:-5px;
+        margin-top:0px;
 
         margin-left: 0;
         padding: 0;
         width: 2.5rem;
-        margin-left: 16.8rem
+        margin-left: 25rem
     }
     
     .container__about-me__texto__apresentacao{
-        width: 70%;
+        width: 80%;
+        font-size: 1.5rem;
         margin: auto;
-        margin-bottom: 6.3rem;
+        margin-bottom: 8rem;
+    }
+}
+
+@media(max-width:400px){
+    
+     .container__about-me-box__lefth{
+        width: 100%;
+        height: 20rem;
+        max-height: 30rem;
+        align-items: center;
+        background-size: 25rem;
+        
+    }
+
+     .texto__cabecalho{
+        margin-top: 0.5rem;
+        font-size:1rem;
+        font-weight: 300;
+    }
+    
+    
+    .container__about-me__texto > h1{
+        margin-top: -10rem;
+        font-size: 1rem;
+        margin-left: 0.5rem;
+        font-weight: 400 ;
+
+    }
+    
+    .container__about-me__texto > hr{
+        height: 2rem;
+        margin-top: -9.6rem;
+        margin-left:0;
+        margin-right: 0rem;
+    }
+    
+    .container__about-me__destaque-de-texto{
+        font-weight: 300;
+        color: #12ff7f;
+        
+    }
+    
+    .linha__inferior{
+        border-color: #12ff7f;
+        margin-top:0px;
+
+        margin-left: 0;
+        padding: 0;
+        width: 2.5rem;
+        margin-top: -7.5rem;
+        margin-left: 13.8rem
+    }
+    
+    .container__about-me__texto__apresentacao{
+        width: 80%;
+        font-size: 1.5rem;
+        margin: auto;
+        margin-bottom: 8rem;
     }
 }

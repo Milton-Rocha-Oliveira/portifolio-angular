@@ -7,6 +7,12 @@
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+
+    background: linear-gradient(15deg, rgba(0,14,0,1) 0%, rgba(0,0,0,1) 8%, 
+    rgba(0,0,0,1) 17%, rgba(0,3,1,1) 28%, rgba(0,0,0,1) 36%, rgba(0,0,0,1) 42%, 
+    rgba(0,0,0,1) 53%, rgba(2, 255, 57, 0.628) 55%, rgba(0,0,0,1) 57%, rgba(0,5,1,1) 64%,
+    rgba(0,0,0,1) 71%, rgba(0,0,0,1) 79%, rgba(0,0,0,1) 89%, rgba(0,0,0,1) 97%);
+ 
 }
 .projects__container__content{
     display: flex;
