@@ -5,15 +5,18 @@
 
     display: flex;
     flex-direction: row;
+
+    background: linear-gradient(0deg, rgba(0,0,0,1) 54%, rgba(10,22,27,1) 100%);
     
 }  
 
 .container__about-me-box__lefth{
-    max-height: 35rem;
-    margin-left: 5rem;
-    margin-bottom: 5.5rem;
-    background-size: 38rem;
-    background-image: url(/assets/Milton-ProfilePhoto.png);
+    max-height: 50rem;
+    width: 50rem;
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    background-size: 47rem;
+    background-image: url(/assets/milton.rocha.text.1.png);
    
 }
 
@@ -30,7 +33,7 @@
     display: flex;
     flex-direction: row;
 
-    margin-top: 28rem;
+    margin-top: 27rem;
     margin-left: 3rem;
     margin-right: 5rem;
     margin-bottom: 0rem;
@@ -49,12 +52,12 @@
 
 .container__about-me__destaque-de-texto{
     font-weight: 300;
-    color: #12ff7f;
+    color: #92dbfa;
     
 }
 
 .linha__inferior{
-    border-color: #12ff7f;
+    border-color: #92dbfa;
     margin-top:-6.5px;
 
     width: 4rem;
@@ -62,18 +65,18 @@
 }
 
 .container__about-me__texto__apresentacao{
-    width: 35%;
+    width: 40%;
     
-    margin: auto;
+    margin: 1rems;
     margin-bottom: 1;
     padding: 1rem;
     text-align: center;
-    border: 1px solid #12ff818d;
+    border: 1px solid #ffffff8d;
     border-radius: 0rem 3rem 0rem 3rem;
 
-    box-shadow: 2px 2px 27px 0px #12ff81;
-    -webkit-box-shadow: -5px 5px 2px 0px #12ff813c;
-    -moz-box-shadow: 2px 9px 2px 0px #12ff8138;
+    box-shadow: 2px 2px 27px 0px #0a161b;
+    -webkit-box-shadow: -5px 5px 2px 0px #284242;
+    -moz-box-shadow: 2px 9px 2px 0px #0a161b;
 
 }
 
@@ -83,11 +86,11 @@
     margin-left: 1rem;
     margin-top: 1rem;
     /*Cria o efeito de sombra*/
-    box-shadow: 2px 2px 27px 0px rgb(0, 71, 0);
-    -webkit-box-shadow: -5px 5px 2px 0px rgb(1, 72, 1);
-    -moz-box-shadow: 2px 9px 2px 0px rgb(2, 74, 2);
+    box-shadow: 2px 2px 27px 0px #0a161b;
+    -webkit-box-shadow: -5px 5px 2px 0px #284242;
+    -moz-box-shadow: 2px 9px 2px 0px #0a161b;
 
-    background-color:#12ff7f;
+    background-color:#284242;
     color: black;
 
     font-family:'Franklin Gothic Medium';
@@ -119,7 +122,7 @@
 }
 
 .container__about-me__texto{
-    margin-top: 26rem;
+    margin-top: 31rem;
     margin-left: 3rem;
 }
 .container__about-me__texto > h1{
@@ -138,9 +141,9 @@
 }
 
 .container__about-me-box__lefth{
-    width: 70%;
+    width: 80%;
     height: 100%;
-    background-size: 60rem;
+    background-size: 57rem;
     margin: auto;
     
 }
@@ -167,8 +170,10 @@
      }
     
      .container__about-me-box__lefth{
-        width: 70%;
-        height: 100%;
+        padding: 0;
+        width: 80%;
+        margin: auto;
+        margin-left: -20rem;
         background-size: 40rem;
         margin: auto;
         
@@ -180,6 +185,10 @@
         font-weight: 300;
     }
     
+    .container__about-me__texto{
+        margin-top: 22rem;
+        margin-left: 3rem;
+    }
     
     .container__about-me__texto > h1{
         margin-top: auto;
@@ -197,12 +206,10 @@
     
     .container__about-me__destaque-de-texto{
         font-weight: 300;
-        color: #12ff7f;
         
     }
     
     .linha__inferior{
-        border-color: #12ff7f;
         margin-top:0px;
 
         margin-left: 0;
@@ -220,25 +227,33 @@
 }
 
 @media(max-width:400px){
-    
-     .container__about-me-box__lefth{
+     .container__about-me{
         width: 100%;
-        height: 20rem;
-        max-height: 30rem;
-        align-items: center;
-        background-size: 25rem;
+        gap: 1.5rem;
+     } 
+
+     .container__about-me-box__lefth{
+        margin-left: 0rem;
+        width: 90%;
+        margin-top: 2rem;
+        background-image: url(/assets/milton.rocha.text.png);
+        background-repeat: no-repeat;
+        background-size: 22.5rem;
         
     }
 
      .texto__cabecalho{
-        margin-top: 0.5rem;
+        margin-top: 0rem;
         font-size:1rem;
         font-weight: 300;
     }
     
-    
+    .container__about-me__texto{
+        margin-top: 14rem;
+        margin-left: 3rem;
+    }
     .container__about-me__texto > h1{
-        margin-top: -10rem;
+        
         font-size: 1rem;
         margin-left: 0.5rem;
         font-weight: 400 ;
@@ -247,25 +262,20 @@
     
     .container__about-me__texto > hr{
         height: 2rem;
-        margin-top: -9.6rem;
         margin-left:0;
         margin-right: 0rem;
     }
     
     .container__about-me__destaque-de-texto{
         font-weight: 300;
-        color: #12ff7f;
-        
     }
     
     .linha__inferior{
-        border-color: #12ff7f;
         margin-top:0px;
 
         margin-left: 0;
         padding: 0;
         width: 2.5rem;
-        margin-top: -7.5rem;
         margin-left: 13.8rem
     }
     

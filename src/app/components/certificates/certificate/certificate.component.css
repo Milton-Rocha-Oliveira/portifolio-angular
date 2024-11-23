@@ -1,7 +1,7 @@
 .certificate__container{
     margin: auto;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     width: 20rem;
     height: 25rem;
 
@@ -15,14 +15,14 @@
 img{
     height: 9rem;
     width: 13rem;
-    border: 0.1rem solid #12ff7f;
+    border: 0.1rem solid #0a161b;
     border-radius: 0.5rem;
 
     margin-top: 0.4rem;
 
-    box-shadow: 2px 2px 27px 0px #12ff81;
-    -webkit-box-shadow: -5px 5px 2px 0px #12ff813c;
-    -moz-box-shadow: 2px 9px 2px 0px #12ff8138;
+    box-shadow: 2px 2px 27px 0px #0a161b;
+    -webkit-box-shadow: -5px 5px 2px 0px #284242;
+    -moz-box-shadow: 2px 9px 2px 0px #0a161b;
 
     transition: transform 3s;
 
@@ -37,24 +37,26 @@ img:hover{
     width: 13rem;
 
     margin: auto;
+    margin-top: 0.5rem;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 
-    border: 1px solid #12ff7f;
+    border: 0.2rem solid #0a161b;
     border-radius: 0.5rem;
 
 }
 
 .certicate__content-text > h4{
-    color: #12ff7f;
+    color: #ffffff;
     font-weight: 100;
 }
 
 .certicate__content-text > hr{
-    border-color: #12ff7f;
+    border-color: #0a161b;
+    width: 100%;
 }
 
 .certicate__content-text > p{
@@ -89,13 +91,9 @@ img:hover{
 
     }
     .certicate__content-text > h4{
-        color: #12ff7f;
         font-weight: 400;
     }
     
-    .certicate__content-text > hr{
-        border-color: #12ff7f;
-    }
     
     .certicate__content-text > p{
         font-size:larger;
