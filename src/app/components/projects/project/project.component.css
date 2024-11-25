@@ -1,15 +1,19 @@
 .project__container{
     margin: auto;
+    padding: 1rem;
     margin-left: rem;
-    width: 28rem;
+    width: 100%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    gap: 1rem;
+    
 }
 .project__container-img{
-    width: 15rem;
-    height: 14rem;
+    height: 20rem;
+    width: 20rem;
 
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -23,8 +27,6 @@
     
 
     display: flex;
-    flex-direction:row;
-    overflow: hidden;
     justify-content: center;
 
     box-shadow: 2px 2px 27px 0px #0a161b;
@@ -34,9 +36,9 @@
 }
 
 img{
-    height: 9.5rem;
-    max-width: 10rem;
-    max-height: 10rem;
+    height: 13rem;
+    max-width: 13rem;
+    max-height: 13rem;
 
     border: 0.1rem solid gray;
     border-radius: 0rem 3rem 0rem 0rem;
@@ -51,7 +53,7 @@ img:hover{
 }
 
 .project__content-text{
-    width: 15rem;
+    width: 20rem;
     margin: auto;
     padding: 0.5rem;
 
@@ -74,4 +76,49 @@ img:hover{
 .project__content-text > hr{
     border-color: #0a161b;
     width: 100%;
+}
+
+
+@media(max-width: 1200px){
+    
+    
+}
+
+@media(max-width: 800px){
+    .project__container-img{
+        height: 30rem;
+        width: 30rem;
+    
+        margin: auto;
+    }
+    
+    img{
+        height: 20rem;
+        max-width: 20rem;
+        max-height: 20rem;
+    
+    }
+    
+    .project__content-text{
+        width: 30rem;
+    }
+}
+
+@media(max-width: 400px){
+    .project__container-img{
+        height: 20rem;
+        width: 20rem;
+    
+    }
+    
+    img{
+        height: 14rem;
+        max-width: 14rem;
+        max-height: 14rem;
+    
+    }
+    
+    .project__content-text{
+        width: 20rem;
+    }
 }

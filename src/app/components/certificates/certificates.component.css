@@ -2,7 +2,6 @@
 .certificates__container{
     width: 100%;
     box-sizing: border-box;
-    padding: 1rem;
     margin: auto;
 }
 .certificates__container > h1 {
@@ -25,17 +24,22 @@
 
 
 @media(max-width: 1200px){
-    
+    .certificates__container > h1 {
+        font-size: 5rem;
+    }
 }
 
 @media(max-width: 800px){
-    
+    .certificates__container > h1 {
+        font-size: 4rem;
+    }
 }
 
 @media(max-width: 400px){
     
 .certificates__container{
     margin: auto;
+    margin-top: 0rem;
     padding: auto;
   
 }
@@ -45,6 +49,7 @@
     text-align: center;
 
     font-weight: 100;
+    font-size: 3rem;
 }
 
 }

@@ -1,6 +1,7 @@
 .projects__container{
     width: 100%;
     margin: auto;
+    padding: 1rem;
     
 
     display: flex;
@@ -23,29 +24,22 @@
 }
 
 @media(max-width: 1200px){
-
+    .projects__container > h1{
+        font-size: 5rem;
+    }
     
 }
 
 @media(max-width: 800px){
-    
+    .projects__container > h1{
+        font-size: 4rem;
+    }
 }
 
 @media(max-width: 400px){
-   .projects__container{
-    width: 100%;
-    margin: auto;
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    
-}
-
+  
 .projects__container > h1{
-    font-weight: 100;
-
-    text-align: center;
-
+        font-size: 3rem;
+   
 }
 }
