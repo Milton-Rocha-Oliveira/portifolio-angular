@@ -13,4 +13,6 @@ export class CertificateComponent {
   imgCertificate:string = ""
   @Input()
   textCerficate:string = ""
+  @Input()
+  linkCertificate:string = ""
 }

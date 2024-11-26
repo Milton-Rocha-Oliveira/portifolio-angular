@@ -52,6 +52,7 @@ img:hover{
 .certicate__content-text > h4{
     color: #ffffff;
     font-weight: 100;
+    font-size: 1.5rem;
 }
 
 .certicate__content-text > hr{
@@ -62,6 +63,7 @@ img:hover{
 .certicate__content-text > p{
     font-size: small;
     font-weight: 200;
+    font-size: 1rem;
 }
 
 @media(max-width: 1200px){

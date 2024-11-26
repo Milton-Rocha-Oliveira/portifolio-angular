@@ -69,6 +69,7 @@ img:hover{
 .project__content-text > h4{
     margin-top: 0.5rem;
     font-weight: 100;
+    font-size:1.5rem;
 
     color:#ffffff;
 }
@@ -76,6 +77,10 @@ img:hover{
 .project__content-text > hr{
     border-color: #0a161b;
     width: 100%;
+}
+
+.project__content-text > p{
+    font-size: 1rem;
 }
 
 
