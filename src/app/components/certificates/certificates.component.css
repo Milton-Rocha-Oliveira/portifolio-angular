@@ -13,13 +13,12 @@
 
 .certificates__container__content{
     margin: auto;
+    padding: auto;
     display: flex;
 
-    justify-content: space-around;
-    align-items: baseline;
     flex-wrap: wrap;
 
-
+    
 }
 
 
@@ -37,12 +36,6 @@
 
 @media(max-width: 400px){
     
-.certificates__container{
-    margin: auto;
-    margin-top: 0rem;
-    padding: auto;
-  
-}
 .certificates__container > h1 {
     padding: 1rem;
     justify-content: center;
