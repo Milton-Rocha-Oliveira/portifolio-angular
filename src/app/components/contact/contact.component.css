@@ -27,6 +27,13 @@
     font-weight: 100;
 }
 
+.contact__container > hr{   
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+    width: 7rem;
+    border-color: #0a161b;
+}
+
 .contact__container-email{
     display: flex;
     flex-direction: column  ;

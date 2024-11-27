@@ -11,6 +11,10 @@
 
     font-weight: 100;
 }
+.certificates__container >hr{
+    width: 11rem;
+    border-color: #0a161b;
+}
 
 .certificates__container__content{
     margin: auto;
@@ -27,11 +31,19 @@
     .certificates__container > h1 {
         font-size: 5rem;
     }
+    .certificates__container >hr{
+        width: 29rem;
+        border-color: #0a161b;
+    }
 }
 
 @media(max-width: 800px){
     .certificates__container > h1 {
         font-size: 4rem;
+    }
+    .certificates__container >hr{
+        width: 22rem;
+        border-color: #0a161b;
     }
 }
 
@@ -43,5 +55,8 @@
     font-weight: 100;
     font-size: 3rem;
 }
-
+.certificates__container >hr{
+    width: 17rem;
+    border-color: #0a161b;
+}
 }

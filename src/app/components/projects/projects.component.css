@@ -22,10 +22,18 @@
 
     text-align: center;
 }
+.projects__container > hr{
+    width: 8rem;
+    border-color: #0a161b;
+}
 
 @media(max-width: 1200px){
     .projects__container > h1{
         font-size: 5rem;
+    }
+    .projects__container > hr{
+        width: 20rem;
+        border-color: #0a161b;
     }
     
 }
@@ -34,6 +42,11 @@
     .projects__container > h1{
         font-size: 4rem;
     }
+    .projects__container > hr{
+        width: 16rem;
+        border-color: #0a161b;
+    }
+    
 }
 
 @media(max-width: 400px){
@@ -42,4 +55,9 @@
         font-size: 3rem;
    
 }
+.projects__container > hr{
+    width: 12rem;
+    border-color: #0a161b;
+}
+
 }
