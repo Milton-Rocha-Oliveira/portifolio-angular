@@ -10,5 +10,5 @@ import { Component, Input } from '@angular/core';
 export class ContactComponent {
 
   @Input()
-  email:string = "MILTON.J.R.OLIVEIRA.1990@GMAIL.COM"
+  email:string = "ENVIAR EMAIL."
 }
