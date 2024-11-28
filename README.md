@@ -1,27 +1,23 @@
 # PortifolioCompleto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
 
-## Development server
+## Acesso
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este programa está disponível no link https://miltonrocha.vercel.app/, e, através deste link, você poderá navegar e conhecer um pouco mais sobre meus estudos e alguns projetos que tenho desenvolvido.
 
-## Code scaffolding
+## Conteudo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ele esta dividido em 4 partes.
 
-## Build
+. Quem eu sou: Aqui falo um pouco a respeito de mim.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+. Certificados: Aqui estão reunidos alguns dos certificados que já obtive durante meu tempo de estudo.
 
-## Running unit tests
+. Projetos: Aqui estão alguns dos projetos que desenvolvi durante meu tempo de estudo, com as tecnologias com as quais já tive contato.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+. Contato: Aqui estão disponíveis formas de entrar em contato comigo, além do link do meu GitHub, onde estão disponíveis, além dos projetos de front-end, os projetos de back-end.
 
-## Running end-to-end tests
+## Tecnologias utilizadas
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Angular , HTML , CSS e Typescript.
