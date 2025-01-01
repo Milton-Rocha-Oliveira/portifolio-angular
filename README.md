@@ -21,3 +21,4 @@ Ele esta dividido em 4 partes.
 ## Tecnologias utilizadas
 
 Angular , HTML , CSS e Typescript.
+# portifolio-angular
