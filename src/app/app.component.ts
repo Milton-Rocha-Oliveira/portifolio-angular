@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { RouterOutlet } from '@angular/router';
 import { HomeComponent } from "./pages/home/home.component";
 import { NgOptimizedImage } from '@angular/common';
@@ -10,7 +11,7 @@ import { CertificatesComponent } from "./components/certificates/certificates.co
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HomeComponent, NgOptimizedImage, CertificatesPageComponent, ProjectsPageComponent, ContactComponent, CertificatesComponent],
+  imports: [RouterOutlet, MenuBarComponent , HomeComponent, NgOptimizedImage, CertificatesPageComponent, ProjectsPageComponent, ContactComponent, CertificatesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

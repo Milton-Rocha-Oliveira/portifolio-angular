@@ -1,9 +1,7 @@
 .projects__container{
     width: 100%;
     margin: auto;
-    padding: 1rem;
-    
-
+    margin-top: -2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,12 +16,14 @@
 }
 
 .projects__container > h1{
-    font-weight: 100;
+
+    margin-top: 3rem;
+    font-weight: 50;
 
     text-align: center;
 }
 .projects__container > hr{
-    width: 8rem;
+    width: 6rem;
     border-color: #0a161b;
 }
 

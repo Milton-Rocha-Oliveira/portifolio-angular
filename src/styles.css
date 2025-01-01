@@ -1,10 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=BhuTuka+Expanded+One&display=swap');
+
+
 *{
     margin: auto;
     padding: auto;
     box-sizing: border-box;
 
-    font-family: 'Segoe UI';
+    font-family: 'Belanosima', serif;
+}
+
+:root{
+    --primary-color: #0a161b;
+    --secondary-color: #92dbfa;
+    --primary-font: "segoe UI", serif;
+    --secondary-font: "Belanosima", serif;
 }
 body {
     background-color: black;
@@ -13,4 +24,4 @@ body {
     justify-content: center;
     align-items: center;
     color: antiquewhite;
-}
+} 

@@ -1,5 +1,6 @@
 .contact__container{
     width: 100%;
+    
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -15,40 +16,34 @@
     justify-content: center;
 
     margin: auto;
-    margin-bottom: 2rem;
-    gap: 10rem;
-
+    margin-bottom: 1rem;
+    gap: 3rem;
 }
 
 .contact__container > h1{
     margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    font-family: var(--primary-font);
     text-align: center;
     font-weight: 100;
+    font-size: 1.5rem;
 }
 
 .contact__container > hr{   
-    margin-top: -2rem;
+    margin-top: -1.2rem;
     margin-bottom: 1rem;
-    width: 7rem;
-    border-color: #0a161b;
+    width: 5rem;
+    border-color: var(--primary-color);
 }
 
-.contact__container-email{
-    display: flex;
-    flex-direction: column  ;
-
-    align-items: center;
-    font-weight: 100;
-}
 
 .contact__container-email > img{
-    max-height: 3.1rem;
+    max-height: 2rem;
 }
 
 .contact__container-redes{
-    height: 3rem;
-    width: 10rem;
+    height: 2.5rem;
+    width: 5rem;
 
     border: 1px solid #ffffff;
     border-radius: 0rem 4rem 0rem 4rem;
@@ -70,7 +65,7 @@
 
 .contact__container-redes > img{
     margin: auto;
-    max-height: 2.4rem;
+    max-height: 2rem;
 }
 
 @media(max-width: 1200px){
@@ -79,7 +74,6 @@
     }
     
     .contact__container-contatos{
-        padding: 2rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -89,7 +83,7 @@
     
     
     .contact__container-redes{
-        height: 3rem;
+        height: 2.6rem;
         width: 10rem;
     
         border: 1px solid #0a161b;
