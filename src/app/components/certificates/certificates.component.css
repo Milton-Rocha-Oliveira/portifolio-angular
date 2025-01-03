@@ -9,7 +9,8 @@
     justify-content: center;
     text-align: center;
 
-    font-weight: 100;
+    font-family: var(--primary-font);
+    font-weight: 100;   
 }
 .certificates__container >hr{
     width: 11rem;
@@ -29,20 +30,20 @@
 
 @media(max-width: 1200px){
     .certificates__container > h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .certificates__container >hr{
-        width: 29rem;
+        width: 11rem;
         border-color: #0a161b;
     }
 }
 
 @media(max-width: 800px){
     .certificates__container > h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .certificates__container >hr{
-        width: 22rem;
+        width: 10rem;
         border-color: #0a161b;
     }
 }
@@ -51,12 +52,11 @@
     
 
 .certificates__container > h1 {
-    
-    font-weight: 100;
-    font-size: 3rem;
+    margin-top: -4rem;
+    font-size: 1.5rem;
 }
 .certificates__container >hr{
-    width: 17rem;
+    width: 9rem;
     border-color: #0a161b;
 }
 }
