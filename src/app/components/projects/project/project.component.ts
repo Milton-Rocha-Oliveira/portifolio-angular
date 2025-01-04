@@ -1,4 +1,5 @@
-import { Component  , Input} from '@angular/core';
+import { Component  , Input, OnInit} from '@angular/core';
+import ScrollReveal from 'scrollreveal';
 
 @Component({
   selector: 'app-project',
@@ -17,4 +18,12 @@ export class ProjectComponent {
   linkProject:string = ""
   @Input()
   projectSummary:string = ""
+
+  ngOnInit() {
+    ScrollReveal().reveal('app-project', {
+      duration: 2000,
+      origin: 'right',
+      distance: '1rem'
+    });
+  }
 }

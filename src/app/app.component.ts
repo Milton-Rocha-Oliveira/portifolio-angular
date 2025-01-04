@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { RouterOutlet } from '@angular/router';
 import { HomeComponent } from "./pages/home/home.component";
 import { NgOptimizedImage } from '@angular/common';
@@ -8,11 +7,10 @@ import { ProjectsPageComponent } from "./pages/projects-page/projects-page.compo
 import { ContactComponent } from "./components/contact/contact.component";
 import { CertificatesComponent } from "./components/certificates/certificates.component";
 
-
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MenuBarComponent, HomeComponent, NgOptimizedImage, CertificatesPageComponent, ProjectsPageComponent, ContactComponent, CertificatesComponent],
+  imports: [RouterOutlet ,HomeComponent, NgOptimizedImage, CertificatesPageComponent, ProjectsPageComponent, ContactComponent, CertificatesComponent, AppComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
