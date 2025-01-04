@@ -8,10 +8,11 @@ import { ProjectsPageComponent } from "./pages/projects-page/projects-page.compo
 import { ContactComponent } from "./components/contact/contact.component";
 import { CertificatesComponent } from "./components/certificates/certificates.component";
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MenuBarComponent , HomeComponent, NgOptimizedImage, CertificatesPageComponent, ProjectsPageComponent, ContactComponent, CertificatesComponent],
+  imports: [RouterOutlet, MenuBarComponent, HomeComponent, NgOptimizedImage, CertificatesPageComponent, ProjectsPageComponent, ContactComponent, CertificatesComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

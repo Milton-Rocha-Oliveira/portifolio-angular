@@ -35,7 +35,7 @@ img:hover{
 }
 
 .certificate__content-text{
-    width: 16rem;
+    width: 18rem;
 
     margin: auto;
     padding: 0.5rem;
@@ -46,6 +46,12 @@ img:hover{
     justify-content: center;
     text-align: center;
     
+    background-color:#2842422b;
+    border-radius: 0.5rem ;
+
+    box-shadow: 2px 2px 27px 0px #0a161b;
+    -webkit-box-shadow: -5px 5px 2px 0px #284242;
+    -moz-box-shadow: 2px 9px 2px 0px #0a161b;
 }
 
 .certificate__content-text > h4{
@@ -81,25 +87,22 @@ img:hover{
 
 @media(max-width: 800px){
     .certificate__container{
-         
-        background: rgba(0, 0, 0, 0);
-        
-        width: 22rem;
+        width: 25rem;
         height: 30rem;
         display: flex;
         flex-direction: column;
 
-        margin-right: 0;
+        margin-right: 2rem;
     
     }
 
     img{
-        height: 15rem;
-        width: 22rem;
+        height: 16rem;
+        width: 25rem;
     }
     .certificate__content-text{
         height: 15rem;
-        width: 22rem;
+        width: 25rem;
 
     }
     .certificate__content-text > h4{
@@ -119,22 +122,22 @@ img:hover{
 @media(max-width: 400px){
     .certificate__container{
         
-        height: 31rem;
-        width: 20rem;
+        height: 20rem;
+        width: 14rem;
     }
     
     img{
-        height: 15rem;
-        width: 20rem;
+        height: 10rem;
+        width: 14rem;
     }
     .certificate__content-text{
-        height: 15rem;
-        width: 20rem;
+        height: 10rem;
+        width: 14rem;
     }
 
     .certificate__content-text > h4{
         font-weight: 400;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     
     
@@ -142,6 +145,6 @@ img:hover{
         font-size:larger;
         font-weight: 200;
 
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 }

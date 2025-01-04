@@ -12,8 +12,8 @@
     
 }
 .project__container-img{
-    height: 17rem;
-    width: 17rem;
+    height: 18rem;
+    width: 18rem;
 
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -37,8 +37,8 @@
 }
 
 img{
-    height: 12rem;
-    max-width: 12rem;
+    height: 12.5rem;
+    max-width: 12.5rem;
     max-height: 12rem;
 
     border: 0.1rem solid gray;
@@ -54,7 +54,7 @@ img:hover{
 }
 
 .project__content-text{
-    width: 17rem;
+    width: 18rem;
     margin: auto;
     margin-top: -1.5rem;
     padding: 0.5rem;
@@ -64,8 +64,13 @@ img:hover{
     justify-content: center;
     text-align: center;
 
-    border: 0.2rem solid #0a161b;
-    border-radius: 1rem;
+    background-color:#2842422b;
+    border-radius: 0rem 2rem 2rem 0rem;
+
+    box-shadow: 2px 2px 27px 0px #0a161b;
+    -webkit-box-shadow: -5px 5px 2px 0px #284242;
+    -moz-box-shadow: 2px 9px 2px 0px #0a161b;
+
 }
 
 .project__content-text > h4{
@@ -89,32 +94,48 @@ img:hover{
 
 
 @media(max-width: 1200px){
-    
-    
+
 }
 
 @media(max-width: 800px){
     .project__container-img{
-        height: 16rem;
-        width: 16rem;
-    
-        margin: auto;
+        height: 25rem;
+        width: 25rem; 
     }
     
     img{
-        height: 11rem;
-        max-width: 11rem;
-        max-height: 11rem;
+        height: 18rem;
+        max-width: 18rem;
+        max-height: 18rem;
     
     }
     
     .project__content-text{
-        width: 16rem;
-        margin-top: 0.5rem;
+        width: 25rem;
+        margin-top: -1rem;
         margin-bottom: 1rem;
     }
 }
 
 @media(max-width: 400px){
-   
+    .project__container-img{
+        height: 14rem;
+        width: 14rem;
+    
+        
+        
+    }
+    
+    img{
+        height: 9.2rem;
+        max-width: 9.2rem;
+        max-height: 9.2rem;
+    
+    }
+    
+    .project__content-text{
+        width: 13rem;
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+    }
 }
