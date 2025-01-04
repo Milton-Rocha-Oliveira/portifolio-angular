@@ -87,8 +87,8 @@ img:hover{
 
 @media(max-width: 800px){
     .certificate__container{
-        width: 25rem;
-        height: 30rem;
+        width: 36rem;
+        height: 40rem;
         display: flex;
         flex-direction: column;
 
@@ -97,12 +97,12 @@ img:hover{
     }
 
     img{
-        height: 16rem;
-        width: 25rem;
+        height: 23.5rem;
+        width: 36rem;
     }
     .certificate__content-text{
         height: 15rem;
-        width: 25rem;
+        width: 36rem;
 
     }
     .certificate__content-text > h4{

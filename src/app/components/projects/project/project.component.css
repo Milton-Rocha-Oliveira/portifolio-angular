@@ -37,9 +37,9 @@
 }
 
 img{
-    height: 12.5rem;
-    max-width: 12.5rem;
-    max-height: 12rem;
+    height: 13rem;
+    max-width: 13rem;
+    max-height: 13rem;
 
     border: 0.1rem solid gray;
     border-radius: 0rem 3rem 0rem 0rem;
@@ -99,19 +99,19 @@ img:hover{
 
 @media(max-width: 800px){
     .project__container-img{
-        height: 25rem;
-        width: 25rem; 
+        height: 33rem;
+        width: 33rem; 
     }
     
     img{
-        height: 18rem;
-        max-width: 18rem;
-        max-height: 18rem;
+        height: 23.5rem;
+        max-width: 23.5rem;
+        max-height: 23.5rem;
     
     }
     
     .project__content-text{
-        width: 25rem;
+        width: 33rem;
         margin-top: -1rem;
         margin-bottom: 1rem;
     }
