@@ -23,7 +23,8 @@ export class ProjectComponent {
     ScrollReveal().reveal('app-project', {
       duration: 2000,
       origin: 'bottom',
-      distance: '0.8rem'
+      distance: '5rem',
+      delay: 100
     });
   }
 }
