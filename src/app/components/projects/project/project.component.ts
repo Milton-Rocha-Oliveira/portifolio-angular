@@ -22,8 +22,8 @@ export class ProjectComponent {
   ngOnInit() {
     ScrollReveal().reveal('app-project', {
       duration: 2000,
-      origin: 'right',
-      distance: '1rem'
+      origin: 'bottom',
+      distance: '0.8rem'
     });
   }
 }

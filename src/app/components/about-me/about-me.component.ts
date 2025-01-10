@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import ScrollReveal from 'scrollreveal';
 
 @Component({
   selector: 'app-about-me',
@@ -14,4 +15,11 @@ export class AboutMeComponent {
     download(){
        alert("CLICOU NO BOTÃO");
     }
-}
+    ngOnInit() {
+      ScrollReveal().reveal('app-about-me', {
+        duration: 3000,
+        origin: 'top',
+        distance: '1rem'
+      });
+    }
+} 
