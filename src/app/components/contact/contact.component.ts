@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import ScrollReveal from 'scrollreveal';
 
 @Component({
   selector: 'app-contact',
