@@ -57,7 +57,7 @@
         font-size: 2rem;
    
 }
-.projects__container > hr{
+.projects__container > hr{ 
     width: 7rem;
     border-color: #0a161b;
 }
