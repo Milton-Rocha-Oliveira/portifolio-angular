@@ -1,0 +1,17 @@
+<article class="certificate-card">
+  <div class="certificate-image"><img [src]="certificate.imageUrl" [alt]="certificate.title"></div>
+  <div class="certificate-details">
+    <div><p>{{ certificate.issuer }}</p><h3>{{ certificate.title }}</h3></div>
+    <span>{{ certificate.date }}</span>
+  </div>
+  <div class="certificate-footer">
+    <div class="certificate-technologies" aria-label="Tecnologias relacionadas">
+      @for (technology of certificate.technologies; track technology.name) {
+        <span class="technology-icon" [title]="technology.name"><img [src]="technology.iconUrl" [alt]="technology.name"></span>
+      }
+    </div>
+    @if (certificate.certificateUrl) {
+      <a class="certificate-link" [href]="certificate.certificateUrl" target="_blank" rel="noopener">Ver certificado <span>↗</span></a>
+    }
+  </div>
+</article>

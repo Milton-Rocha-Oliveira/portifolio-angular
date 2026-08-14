@@ -1,0 +1,46 @@
+:host {
+  display: block;
+}
+.projects-section {
+  padding: 3.5rem clamp(1.5rem, 5vw, 4rem);
+  background: transparent;
+}
+.section-kicker {
+  margin: 0;
+  text-align: center;
+  color: #46dc82;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+}
+.projects-section h2 {
+  margin: 0.7rem 0 2rem;
+  text-align: center;
+  color: #eff3ef;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.2rem 1.5rem;
+}
+@media (max-width: 900px) {
+  .projects-section {
+    padding-inline: 2.5rem;
+  }
+  .project-grid {
+    gap: 1.6rem 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .project-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.8rem;
+  }
+  .projects-section {
+    padding: 3rem 1.4rem;
+  }
+  .projects-section h2 {
+    font-size: 1.65rem;
+  }
+}

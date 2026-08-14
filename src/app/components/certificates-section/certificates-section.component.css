@@ -1,0 +1,57 @@
+:host {
+  display: block
+}
+
+.certificates-section {
+  padding: 4rem clamp(1.5rem, 10vw, 9rem);
+  background: transparent
+}
+
+.section-kicker {
+  margin: 0;
+  text-align: center;
+  color: #46dc82;
+  font-size: .65rem;
+  text-transform: uppercase
+}
+
+.certificates-section h2 {
+  margin: .7rem 0 2.4rem;
+  text-align: center;
+  color: #f0f3f0;
+  font-size: 2rem;
+  font-weight: 500
+}
+
+.certificate-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2.75rem 2rem;
+  max-width: 920px;
+  margin: auto
+}
+
+@media(max-width:900px) {
+  .certificates-section {
+    padding-inline: 8vw
+  }
+
+  .certificate-grid {
+    gap: 2rem 1.25rem
+  }
+}
+
+@media(max-width:600px) {
+  .certificates-section {
+    padding: 3rem 1.4rem
+  }
+
+  .certificate-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem
+  }
+
+  .certificates-section h2 {
+    font-size: 1.65rem
+  }
+}

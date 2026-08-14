@@ -1,5 +1,21 @@
+<main class="portfolio-shell">
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Voltar ao início">M .O</a>
+    <button class="menu-toggle" type="button" (click)="toggleMenu()" [attr.aria-expanded]="menuOpen" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+    </button>
+    <nav [class.is-open]="menuOpen" aria-label="Navegação principal">
+      <a href="#sobre" (click)="closeMenu()">Sobre Mim</a>
+      <a href="#projetos" (click)="closeMenu()">Projetos</a>
+      <a href="#certificacoes" (click)="closeMenu()">Certificações</a>
+      <a href="#contato" (click)="closeMenu()">Contato</a>
+    </nav>
+    <a class="budget-link" href="#contato">Entrar em contato</a>
+  </header>
 
-<app-home></app-home>
-<app-certificates></app-certificates>
-<app-projects-page></app-projects-page>
-<app-contact></app-contact>
+  <app-home-section />
+  <app-projects-section [projects]="projects" />
+  <app-certificates-section [certificates]="certificates" />
+  <app-contact-section [email]="contactEmail" />
+</main>

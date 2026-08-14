@@ -20,10 +20,10 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('portifolio-completo');
   });
 
-  it('should render title', () => {
+  it('should render the portfolio headline', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, portifolio-completo');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Transformo ideias');
   });
 });

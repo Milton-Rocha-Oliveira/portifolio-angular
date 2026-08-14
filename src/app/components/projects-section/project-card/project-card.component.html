@@ -1,0 +1,8 @@
+<article class="project-card">
+  <a class="project-image" [href]="project.link" target="_blank" rel="noopener" [attr.aria-label]="'Abrir projeto ' + project.title"><img [src]="project.imageUrl" [alt]="project.title"><span>{{ project.year }}</span></a>
+  <div class="project-content">
+    <p class="project-category">{{ project.category }}</p>
+    <div class="project-info"><h3>{{ project.title }}</h3><a [href]="project.link" target="_blank" rel="noopener">Ver projeto</a></div>
+    <p class="project-description">{{ project.description }}</p>
+  </div>
+</article>

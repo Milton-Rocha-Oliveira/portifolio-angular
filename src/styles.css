@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+body { margin: 0; background: #090b0a; }
+* { box-sizing: border-box; }
+/*
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=BhuTuka+Expanded+One&display=swap');
 
 
@@ -24,4 +27,4 @@ body {
     justify-content: center;
     align-items: center;
     color: antiquewhite;
-} 
+}*/

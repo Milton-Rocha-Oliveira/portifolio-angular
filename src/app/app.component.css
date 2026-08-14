@@ -1,28 +1,96 @@
-*{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+:host{
+  display:block;
+  min-height:100vh;
+  color:#e8eee9;
+  background:#060807;
+  font-family:"Space Grotesk", sans-serif;
 }
-
-@media(max-width: 1200px){
-    *{
-        width: 1200px;
-    }
+.portfolio-shell{
+  width:100%;
+  min-height:100vh;
+  overflow:hidden;
+  background:radial-gradient(ellipse 75% 23% at 50% 9%,#07331e 0%,#06120c 40%,transparent 72%),#060807
 }
-
-@media(max-width: 800px){
-    *{
-        width: 800px;
-    }
+.site-header{
+  height:50px;
+  padding:0 clamp(1.25rem,5.25vw,5rem);
+  display:flex;
+  align-items:center;
+  border-bottom:1px solid #183021;
+  background:transparent
 }
-
-@media(max-width: 400px){
-    *{
-        width: 400px;
-    }
+.brand{
+  color:#e9efe9;
+  text-decoration:none;
+  font-size:2rem;
+  font-weight:700;
+  letter-spacing:-.16em
+}
+.site-header nav{
+  display:flex;
+  gap:clamp(1rem,2.5vw,2.2rem);
+  margin:auto
+}
+.site-header nav a{
+  color:#afb8b0;
+  text-decoration:none;
+  font-size:1rem
+}
+.site-header nav a:hover,.budget-link:hover{
+  color:#48df87
+}
+.budget-link{
+  color:#edf2ed;
+  text-decoration:none;
+  border:1px solid #748077;
+  border-radius:1rem;
+  padding:.5rem 1rem;
+  font-size:.63rem
+}
+.menu-toggle{
+  display:none
+}
+@media(max-width:900px){
+  .site-header{
+    padding-inline:1.5rem
+  }
+  .site-header nav{
+    gap:1rem
+  }
+  .site-header nav a{font-size:.62rem}
+}
+@media(max-width:600px){
+  .site-header{
+    height:58px
+  }
+  .menu-toggle{
+    display:grid;
+    gap:5px;
+    background:transparent;
+    border:0;
+    margin-left:auto
+  }
+  .menu-toggle span{
+    width:20px;
+    height:1px;
+    background:#fff
+  }
+  .site-header nav{
+    display:none;
+    position:absolute;
+    top:58px;
+    left:0;
+    right:0;
+    z-index:10;
+    padding:1rem 1.5rem;
+    background:#07130d;
+    flex-direction:column
+  }
+  .site-header nav.is-open{
+    display:flex
+  }
+  .budget-link{
+    display:none
+  }
 }

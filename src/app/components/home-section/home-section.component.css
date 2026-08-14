@@ -1,0 +1,231 @@
+:host {
+  display: block;
+}
+.intro-section {
+  min-height: 39px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 5.5rem 1.5rem 4rem;
+  background: transparent;
+}
+.intro-content {
+  max-width: 670px;
+}
+.availability,
+.section-kicker {
+  color: #48df87;
+  font-size: 0.65rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.availability span {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 0.3rem;
+  border: 1px solid #48df87;
+}
+.intro-section h1 {
+  max-width: 630px;
+  margin: 1.15rem auto 1.6rem;
+  color: #eef4ef;
+  font-size: clamp(1.8rem, 3.2vw, 2.55rem);
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -0.050em;
+}
+.intro-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.7rem;
+}
+.primary-action,
+.secondary-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.7rem 1.1rem;
+  border-radius: 1.2rem;
+  text-decoration: none;
+  font-size: 0.72rem;
+}
+.primary-action {
+  background: #f3f5f3;
+  color: #080b09;
+}
+.primary-action b {
+  display: grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  color: #fff;
+  background: #050605;
+}
+.secondary-action {
+  color: #eef4ef;
+  border: 1px solid #67716b;
+}
+.about-section {
+  position: relative;
+  min-height: 380px;
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  overflow: hidden;
+  padding: 2rem clamp(1.5rem, 7vw, 7rem) 1.5rem;
+  background: transparent;
+}
+.about-copy {
+  max-width: 430px;
+  z-index: 1;
+}
+.about-copy h2 {
+  margin: 0.32rem 0 0.7rem;
+  color: #ecf2ed;
+  font-size: 2rem;
+  font-weight: 450;
+}
+.about-copy > p:last-child {
+  margin: 0;
+  color: #c0c8c1;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.about-portrait {
+  position: relative;
+  align-self: end;
+  justify-self: center;
+  width: 285px;
+  height: 285px;
+  margin-bottom: 0.8rem;
+}
+.tech-orbit {
+  position: absolute;
+  inset: 0;
+  animation: orbit 20s linear infinite;
+}
+.orbit-inner {
+  inset:52px;
+  animation-direction: reverse;
+  animation-duration: 15s;
+}
+.technology {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.technology img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 0 10px #00bd6544);
+}
+.java {
+  left: 11%;
+  top: 5%;
+}
+.angular {
+  right: 8%;
+  top: 11%;
+}
+.bootstrap {
+  bottom: 6%;
+  right: 18%;
+}
+.typescript {
+  left: 4%;
+  bottom: 17%;
+}
+.spring {
+  left: 0;
+  top: 48%;
+}
+.sql {
+  right: 3%;
+  top: 48%;
+}
+.csharp {
+  left: 30%;
+  bottom: -4%;
+}
+.tech-orbit .technology {
+  animation: counter-orbit 20s linear infinite;
+}
+.orbit-inner .technology {
+  animation: counter-orbit-reverse 15s linear infinite;
+}
+@keyframes orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes counter-orbit {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes counter-orbit-reverse {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 900px) {
+  .intro-section {
+    min-height: 355px;
+    padding-top: 4rem;
+  }
+  .about-section {
+    padding-inline: 2.5rem;
+  }
+  .about-copy > p:last-child {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 600px) {
+  .intro-section {
+    min-height: 330px;
+    padding: 4rem 1.25rem 3rem;
+  }
+  .intro-section h1 {
+    font-size: 1.65rem;
+  }
+  .about-section {
+    padding: 1.7rem 1.4rem 1.5rem;
+    grid-template-columns: 1fr;
+    min-height: 520px;
+  }
+  .about-portrait {
+    width: 230px;
+    height: 230px;
+    margin-top: 1rem;
+    margin-bottom: 0.7rem;
+  }
+  .orbit-inner {
+    inset: 42px;
+  }
+  .technology {
+    width: 42px;
+    height: 42px;
+  }
+  .about-copy > p:last-child {
+    font-size: 0.8rem;
+  }
+  .availability {
+    font-size: 0.58rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tech-orbit,
+  .tech-orbit .technology {
+    animation: none;
+  }
+}
+.docker {
+  left: 44%;
+  bottom: -5%;
+}

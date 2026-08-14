@@ -1,0 +1,16 @@
+<section id="contato" class="contact-section">
+  <div class="contact-identity"><img src="assets/MiltonOliveira.jpeg" alt="">
+    <span><b>EMAIL</b><br>{{ email }}</span>
+  </div>
+  <h2>Vamos conversar?</h2>
+  <form (ngSubmit)="send()">
+    <label for="message">Envie uma mensagem no campo abaixo</label>
+    <textarea id="message" name="message" [(ngModel)]="message" placeholder="digite aqui sua mensagem..." required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/milton-j-rocha/" target="_blank" rel="noopener">in</a>
+    <a href="https://github.com/Milton-Rocha-Oliveira" target="_blank" rel="noopener">Git</a>
+  </div>
+  <p class="copyright">© 2026 Milton Oliveira | Desenvolvedor Full Stack</p>
+</section>
